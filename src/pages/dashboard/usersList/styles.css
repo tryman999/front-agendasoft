@@ -1,0 +1,52 @@
+.users {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+.users-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-client-label {
+  color: black;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.form-client-label label {
+  display: block; /* Cada etiqueta en una línea separada */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-client-label input[type="text"],
+.form-client-label input[type="email"],
+.form-client-label input[type="tel"] {
+  width: 100%; /* O un ancho fijo si lo prefieres */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Evita que el padding y el border aumenten el ancho */
+}
+.form-client-label button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-client-label button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.form-client-label .error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}

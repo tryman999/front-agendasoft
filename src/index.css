@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  color: white;
+  /* Degradado semitransparente */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

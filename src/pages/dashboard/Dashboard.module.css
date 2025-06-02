@@ -1,0 +1,10 @@
+.container {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.content {
+  flex-grow: 1; /* El contenido ocupa el espacio restante */
+}

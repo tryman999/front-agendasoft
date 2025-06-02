@@ -1,0 +1,35 @@
+.boton-flotante {
+  position: fixed; /* Lo saca del flujo normal y lo fija a la ventana */
+  bottom: 20px; /* Espacio desde la parte inferior */
+  right: 20px; /* Espacio desde la parte derecha */
+  background-color: #232323; /* Color de fondo azul (puedes cambiarlo) */
+  color: white; /* Color del texto blanco (puedes cambiarlo) */
+  border: none;
+  border-radius: 50%; /* Lo hace circular */
+  width: 60px; /* Ancho del botón */
+  height: 60px; /* Alto del botón */
+  font-size: 24px; /* Tamaño del icono o texto */
+  display: flex; /* Para centrar el contenido */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.boton-flotante:hover {
+  background-color: #04431c; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+/* Opcional: Estilos para un icono dentro del botón (por ejemplo, un signo de +) */
+.boton-flotante i {
+  /* Si usas Font Awesome o alguna otra biblioteca de iconos */
+  font-size: 30px;
+}
+
+/* Opcional: Estilos para texto dentro del botón */
+.boton-flotante span {
+  font-size: 20px;
+  font-weight: bold;
+}

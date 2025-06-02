@@ -1,0 +1,31 @@
+.header {
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  padding: 0px 1rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  margin: 0 1rem;
+}
+
+.listItem a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
